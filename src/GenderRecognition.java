@@ -43,8 +43,6 @@ public class GenderRecognition {
 		if (wRes > mRes) gender = "Woman";
 		else gender = "Man";
 		
-		System.out.println(gender + ": w: " + wRes+ ", m: " + mRes);
-		
 		return gender;
 	}
 }
