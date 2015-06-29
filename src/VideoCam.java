@@ -51,7 +51,7 @@ public class VideoCam {
 	 * @throws IOException
 	 */
 	private BufferedImage toBufferedImage(Mat matImage) 
-												throws IOException {
+							throws IOException {
 		MatOfByte bytemat = new MatOfByte();
 		Imgcodecs.imencode(".jpg", matImage, bytemat);
 		byte[] bytes = bytemat.toArray();
